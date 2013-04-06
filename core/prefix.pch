@@ -1,0 +1,6 @@
+#ifndef prefix_pch
+#define prefix_pch
+
+#include "util/log.h"
+
+#endif
