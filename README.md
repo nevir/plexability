@@ -3,6 +3,21 @@ Plexability
 
 Be plexable.
 
+Note that this project currently only supports OS X.  It's being built in the
+hopes of working across multiple platforms, but none of that work has happened
+yet.
+
+
+Hacking On Plexability
+----------------------
+
+Brace yourself.  Chromium is a **huge** project, and Plexability depends on most
+of it.  Set aside a few hours to download and build the source the first time.
+
+Thankfully, the process is automated:
+
+1. Check out the Plexability source to a directory of your choosing.
+2. Run `python -m tools/sync`
 
 
 License
