@@ -29,7 +29,7 @@ def sync_chromium():
     #
     # This will pull down the chromium version targeted by CEF, and ensure that
     # it is ready to build.
-    os.chdir(layout.CHROMIUM_ROOT + '/src')
+    os.chdir(layout.CHROMIUM_ROOT)
     print("In dir: %s" % layout.CHROMIUM_ROOT)
 
     run_command('svn', 'checkout', '--ignore-externals', cef.desired_chromium_svn_url(), 'src')
