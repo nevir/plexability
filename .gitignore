@@ -1,7 +1,8 @@
 *.pyc
 .DS_Store
+.svn/
 
 /plexability.xcodeproj/
 /extern/chromium/.gclient_entries
-/extern/chromium/src/
-/extern/depot_tools/
+/extern/chromium/src/*
+!/extern/chromium/src/cef/
