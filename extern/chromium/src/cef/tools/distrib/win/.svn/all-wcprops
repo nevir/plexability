@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1212/trunk/cef3/tools/distrib/win
+END
+README.minimal.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1212/trunk/cef3/tools/distrib/win/README.minimal.txt
+END
+README.redistrib.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1212/trunk/cef3/tools/distrib/win/README.redistrib.txt
+END
+d3dcompiler_43.dll
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/571/trunk/cef3/tools/distrib/win/d3dcompiler_43.dll
+END
+README.standard.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1212/trunk/cef3/tools/distrib/win/README.standard.txt
+END

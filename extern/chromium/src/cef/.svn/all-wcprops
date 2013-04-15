@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/1214/trunk/cef3
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/981/trunk/cef3/LICENSE.txt
+END
+cef_create_projects.sh
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/571/trunk/cef3/cef_create_projects.sh
+END
+cef_paths.gypi
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/1176/trunk/cef3/cef_paths.gypi
+END
+AUTHORS.txt
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/1151/trunk/cef3/AUTHORS.txt
+END
+cef.gypi
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/1148/trunk/cef3/cef.gypi
+END
+cef_paths2.gypi
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/1174/trunk/cef3/cef_paths2.gypi
+END
+VERSION
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/845/trunk/cef3/VERSION
+END
+CHROMIUM_BUILD_COMPATIBILITY.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1168/trunk/cef3/CHROMIUM_BUILD_COMPATIBILITY.txt
+END
+cef.gyp
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/1206/trunk/cef3/cef.gyp
+END
+DEPS
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/571/trunk/cef3/DEPS
+END
+cef_create_projects.bat
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/571/trunk/cef3/cef_create_projects.bat
+END

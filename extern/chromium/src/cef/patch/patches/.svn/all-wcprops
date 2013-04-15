@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/1211/trunk/cef3/patch/patches
+END
+webkit_933.patch
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1168/trunk/cef3/patch/patches/webkit_933.patch
+END
+webkit_features.patch
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1148/trunk/cef3/patch/patches/webkit_features.patch
+END
+gyp_331.patch
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1192/trunk/cef3/patch/patches/gyp_331.patch
+END
+gritsettings.patch
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/730/trunk/cef3/patch/patches/gritsettings.patch
+END
+message_loop_443.patch
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1107/trunk/cef3/patch/patches/message_loop_443.patch
+END
+spi_webcore_364.patch
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1168/trunk/cef3/patch/patches/spi_webcore_364.patch
+END
+build.patch
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/571/trunk/cef3/patch/patches/build.patch
+END
+zlib.patch
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/987/trunk/cef3/patch/patches/zlib.patch
+END

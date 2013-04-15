@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1176/trunk/cef3/libcef_dll/wrapper
+END
+cef_stream_resource_handler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/571/trunk/cef3/libcef_dll/wrapper/cef_stream_resource_handler.cc
+END
+libcef_dll_wrapper.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1176/trunk/cef3/libcef_dll/wrapper/libcef_dll_wrapper.cc
+END
+cef_zip_archive.cc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/571/trunk/cef3/libcef_dll/wrapper/cef_zip_archive.cc
+END
+libcef_dll_wrapper2.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/571/trunk/cef3/libcef_dll/wrapper/libcef_dll_wrapper2.cc
+END
+cef_xml_object.cc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/571/trunk/cef3/libcef_dll/wrapper/cef_xml_object.cc
+END
+cef_byte_read_handler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/786/trunk/cef3/libcef_dll/wrapper/cef_byte_read_handler.cc
+END

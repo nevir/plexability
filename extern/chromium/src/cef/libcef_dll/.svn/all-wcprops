@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/1209/trunk/cef3/libcef_dll
+END
+transfer_util.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/571/trunk/cef3/libcef_dll/transfer_util.cpp
+END
+libcef_dll.rc
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/845/trunk/cef3/libcef_dll/libcef_dll.rc
+END
+libcef_dll.cc
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1176/trunk/cef3/libcef_dll/libcef_dll.cc
+END
+libcef_dll2.cc
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1160/trunk/cef3/libcef_dll/libcef_dll2.cc
+END
+transfer_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/571/trunk/cef3/libcef_dll/transfer_util.h
+END
+cef_logging.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/571/trunk/cef3/libcef_dll/cef_logging.h
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/594/trunk/cef3/libcef_dll/resource.h
+END

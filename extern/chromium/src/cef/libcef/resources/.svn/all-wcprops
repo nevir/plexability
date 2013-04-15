@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/1106/trunk/cef3/libcef/resources
+END
+cef_strings.grd
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/862/trunk/cef3/libcef/resources/cef_strings.grd
+END
+cef_resources.grd
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1106/trunk/cef3/libcef/resources/cef_resources.grd
+END
+about_version.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/845/trunk/cef3/libcef/resources/about_version.html
+END
+devtools_discovery_page.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/981/trunk/cef3/libcef/resources/devtools_discovery_page.html
+END

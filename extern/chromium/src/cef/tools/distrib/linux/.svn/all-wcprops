@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/1212/trunk/cef3/tools/distrib/linux
+END
+README.minimal.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1212/trunk/cef3/tools/distrib/linux/README.minimal.txt
+END
+README.redistrib.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1212/trunk/cef3/tools/distrib/linux/README.redistrib.txt
+END
+build.sh
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1186/trunk/cef3/tools/distrib/linux/build.sh
+END
+README.standard.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1212/trunk/cef3/tools/distrib/linux/README.standard.txt
+END

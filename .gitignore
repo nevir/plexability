@@ -1,6 +1,5 @@
 *.pyc
 .DS_Store
-.svn/
 
 /plexability.xcodeproj/
 /extern/chromium/.gclient_entries
