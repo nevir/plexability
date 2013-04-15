@@ -1,6 +1,7 @@
 import re
 import subprocess
 import sys
+import xml.etree.ElementTree
 
 
 def check_version():
@@ -25,3 +26,17 @@ def assert_version(target_version):
     if float(short_match.group(0)) < target_version:
         print("svn %s+ is required, you have %s installed." % (target_version, svn_version))
         sys.exit(127)
+
+
+def local_repo_url(path):
+    command = ("svn", "info", "--xml", path)
+    process = subprocess.Popen(command, stdout=subprocess.PIPE)
+    output, error = process.communicate()
+    if error:
+        return None
+
+    root = xml.etree.ElementTree.fromstring(output)
+    url = root.find("entry/url").text
+    rev = root.find("entry[@revision]").attrib["revision"]
+
+    return "%s@%s" % (url, rev)

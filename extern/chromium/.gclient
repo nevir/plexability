@@ -18,6 +18,9 @@ solutions = [
         'name': 'src',
         'url': cef.desired_chromium_svn_url(),
         'custom_deps': {
+            # By directly declaring CEF, gclient will trigger hooks.
+            'src/cef': cef.svn_url(),
+            # Things we don't need.  Faster download!
             'src/chrome/installer/mac/third_party/xz/xz': None,
             'src/chrome/test/data/extensions/api_test/permissions/nacl_enabled/bin': None,
             'src/chrome/test/data/perf/canvas_bench': None,

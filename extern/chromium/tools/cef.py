@@ -2,7 +2,13 @@ import os
 import sys
 import traceback
 
+from . import svn
+
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src', 'cef'))
+
+
+def svn_url():
+    return svn.local_repo_url(ROOT)
 
 
 def desired_chromium_svn_url():
