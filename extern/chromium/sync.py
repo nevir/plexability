@@ -33,17 +33,26 @@ def sync_chromium():
     print("In dir: %s" % layout.CHROMIUM_ROOT)
 
     run_command('svn', 'checkout', '--ignore-externals', cef.desired_chromium_svn_url(), 'src')
+
+    # Prefer a ninja build of CEF.  You're insane if you want to use Xcode or
+    # Visual Studio to build it - they tend to choke on that many files.
+    #
+    # Plus, ninja has much faster incremental builds.
+    os.environ['GYP_GENERATORS'] = 'ninja'
+
     sync_gclient()
-    # We can't rely on the gclient hook running in order, so we run it manually.
     sync_cef_projects()
 
 
+# Pull down Chromium's dependencies.
 def sync_gclient():
-    # Prefer a ninja build.
-    os.environ['GYP_GENERATORS'] = 'ninja'
     run_command('python', layout.GCLIENT_RUNNER, 'sync')
 
 
+# We can't rely on the gclient hook running in order, so we run it manually.
+#
+# This applies CEF-specific patches to chromium, and generates CEF's build
+# project (though, we ignore that).
 def sync_cef_projects():
     # CEF demands that depot_tools is on the path
     os.environ['PATH'] = '%s:%s' % (layout.DEPOT_TOOLS_PATH, os.environ['PATH'])
