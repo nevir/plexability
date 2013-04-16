@@ -2,17 +2,15 @@ import os
 import sys
 import traceback
 
-from . import svn
-
-ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src', 'cef'))
+from . import layout, svn
 
 
 def svn_url():
-    return svn.local_repo_url(ROOT)
+    return svn.local_repo_url(layout.CEF_PATH)
 
 
 def desired_chromium_svn_url():
-    build_compat_path = os.path.join(ROOT, "CHROMIUM_BUILD_COMPATIBILITY.txt")
+    build_compat_path = os.path.join(layout.CEF_PATH, "CHROMIUM_BUILD_COMPATIBILITY.txt")
 
     try:
         content = open(build_compat_path).read()

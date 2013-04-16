@@ -33,10 +33,21 @@ def sync_chromium():
     print("In dir: %s" % layout.CHROMIUM_ROOT)
 
     run_command('svn', 'checkout', '--ignore-externals', cef.desired_chromium_svn_url(), 'src')
+    sync_gclient()
+    # We can't rely on the gclient hook running in order, so we run it manually.
+    sync_cef_projects()
 
+
+def sync_gclient():
     # Prefer a ninja build.
     os.environ['GYP_GENERATORS'] = 'ninja'
     run_command('python', layout.GCLIENT_RUNNER, 'sync')
+
+
+def sync_cef_projects():
+    # CEF demands that depot_tools is on the path
+    os.environ['PATH'] = '%s:%s' % (layout.DEPOT_TOOLS_PATH, os.environ['PATH'])
+    run_command('python', os.path.join(layout.CEF_PATH, 'tools', 'gclient_hook.py'))
 
 
 def run_command(*args):
