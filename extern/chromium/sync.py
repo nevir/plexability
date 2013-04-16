@@ -29,9 +29,7 @@ def sync_chromium():
     #
     # This will pull down the chromium version targeted by CEF, and ensure that
     # it is ready to build.
-    os.chdir(layout.CHROMIUM_ROOT)
-    print("In dir: %s" % layout.CHROMIUM_ROOT)
-
+    chdir(layout.CHROMIUM_ROOT)
     run_command('svn', 'checkout', '--ignore-externals', cef.desired_chromium_svn_url(), 'src')
 
     # Prefer a ninja build of CEF.  You're insane if you want to use Xcode or
@@ -42,6 +40,7 @@ def sync_chromium():
 
     sync_gclient()
     sync_cef_projects()
+    sync_gyp_project()
 
 
 # Pull down Chromium's dependencies.
@@ -59,8 +58,24 @@ def sync_cef_projects():
     run_command('python', os.path.join(layout.CEF_PATH, 'tools', 'gclient_hook.py'))
 
 
+# Generate our custom gyp project which places build artifacts where and how we
+# like it.
+#
+# This is unfortunately quite slow.
+def sync_gyp_project():
+    # gyp is ornery: absolute paths get mangled.
+    chdir(os.path.join(layout.CHROMIUM_ROOT, 'src'))
+    # Also, make sure that we use CEF's extended gyp
+    run_command(layout.CEF_GYP_RUNNER, '../custom_cef.gyp', '--depth=.', '-Icef/cef.gypi', '-Goutput_dir=../../prebuilt')
+
+
+def chdir(path):
+    os.chdir(path)
+    print("\nIn dir: %s" % path)
+
+
 def run_command(*args):
-    print("Running command: %s" % " ".join(args))
+    print("\nRunning command: %s" % " ".join(args))
     subprocess.call(args)
 
 
