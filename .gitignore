@@ -5,3 +5,9 @@
 /extern/chromium/.gclient_entries
 /extern/chromium/src/*
 !/extern/chromium/src/cef/
+
+# Generated files
+extern/chromium/src/cef/include/cef_pack_resources.h
+extern/chromium/src/cef/include/cef_pack_strings.h
+extern/chromium/src/cef/include/cef_version.h
+extern/chromium/src/cef/patch/patch_state.h
